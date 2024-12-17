@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Poppins, sans-serif;
     text-align: center;
@@ -14,7 +8,11 @@ body {
     background-image: radial-gradient(circle, #dcdcdc 2px, transparent 1px);
     background-size: 40px 40px;
     background-position: 20px 20px;
+    margin: 0;
+    display: flex;
     color: black;
+    align-items: center; /* Center vertically */
+    text-align: center; 
 }
 
 .header {
