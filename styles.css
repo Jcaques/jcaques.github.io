@@ -35,13 +35,13 @@ body {
 
 .center-content h1 {
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
 .center-content p {
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 100;
     color: #333;
 }
 
