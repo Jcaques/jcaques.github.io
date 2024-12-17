@@ -15,8 +15,9 @@ body {
 }
 
 .name {
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-style: normal;
     margin-bottom: 10px;
     letter-spacing: 2px;
 }
