@@ -8,10 +8,16 @@ body {
     color: black;
 }
 
-.header-container {
-    padding: 50px 20px;
-    max-width: 800px;
-    margin: 0 auto;
+.header {
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center; /* Vertically center items */
+    padding: 20px 50px; /* Add space around the header */
+    background-color: #f1f5f9; /* Light gray/blue background */
+    border-bottom: 1px solid #e0e0e0;
+    position: sticky; /* Sticky header */
+    top: 0;
+    z-index: 1000;
 }
 
 .logo h1 {
