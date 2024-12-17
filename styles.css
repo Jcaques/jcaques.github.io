@@ -8,11 +8,7 @@ body {
     background-image: radial-gradient(circle, #dcdcdc 2px, transparent 1px);
     background-size: 40px 40px;
     background-position: 20px 20px;
-    margin: 0;
-    display: grid;
-    place-items: center;
     color: black;
-    text-align: center; 
 }
 
 .header {
@@ -25,6 +21,28 @@ body {
     position: sticky; /* Sticky header */
     top: 0;
     z-index: 1000;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: calc(100vh - 100px); /* Adjust for header height */
+    padding: 20px;
+}
+
+.center-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.center-content p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
 }
 
 .logo h1 {
