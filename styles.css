@@ -9,9 +9,9 @@ body {
     background-size: 40px 40px;
     background-position: 20px 20px;
     margin: 0;
-    display: flex;
+    display: grid;
+    place-items: center;
     color: black;
-    align-items: center; /* Center vertically */
     text-align: center; 
 }
 
