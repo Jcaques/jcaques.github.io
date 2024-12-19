@@ -69,6 +69,10 @@ body {
 .navbar .nav-links a:hover {
     color: #007bff; /* Light blue on hover */
 }
+
+
+
 div {
+    text-align: left;
     margin-left: 50px;
 }
